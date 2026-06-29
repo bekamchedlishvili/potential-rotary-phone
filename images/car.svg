@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="100%" height="100%">
+  <rect width="800" height="400" fill="#ffffff" />
+
+  <g transform="translate(100, 80)">
+    <ellipse cx="300" cy="200" rx="280" ry="15" fill="#1a1a1a" opacity="0.4" />
+
+    <path d="M 30,160 
+             Q 50,110 120,90 
+             Q 220,80 290,50 
+             Q 340,40 430,75 
+             Q 540,110 570,150 
+             Q 580,165 570,180
+             L 550,195
+             L 50,195 
+             Z" 
+          fill="#000000" />
+
+    <path d="M 160,98 
+             Q 230,90 290,65 
+             Q 330,55 390,80
+             Q 440,100 460,115
+             L 420,120
+             Q 300,115 160,105
+             Z" 
+          fill="#ffffff" opacity="0.9" />
+          
+    <path d="M 180,112 
+             Q 280,118 380,122 
+             L 340,145 
+             L 200,145 
+             Z" 
+          fill="#ffffff" opacity="0.3" />
+
+    <path d="M 40,160 Q 150,130 300,140 Q 450,150 560,165" stroke="#ffffff" stroke-width="3" fill="none" />
+    <path d="M 290,50 Q 380,75 500,120" stroke="#ffffff" stroke-width="2" fill="none" />
+
+    <g transform="translate(130, 185)">
+      <circle cx="0" cy="0" r="45" fill="#000000" stroke="#ffffff" stroke-width="4" />
+      <circle cx="0" cy="0" r="28" fill="#ffffff" />
+      <circle cx="0" cy="0" r="20" fill="#000000" />
+      <path d="M -25,0 L 25,0 M 0,-25 L 0,25 M -18,-18 L 18,18 M -18,18 L 18,-18" stroke="#ffffff" stroke-width="3" />
+      <circle cx="0" cy="0" r="8" fill="#ffffff" />
+    </g>
+
+    <g transform="translate(450, 185)">
+      <circle cx="0" cy="0" r="45" fill="#000000" stroke="#ffffff" stroke-width="4" />
+      <circle cx="0" cy="0" r="28" fill="#ffffff" />
+      <circle cx="0" cy="0" r="20" fill="#000000" />
+      <path d="M -25,0 L 25,0 M 0,-25 L 0,25 M -18,-18 L 18,18 M -18,18 L 18,-18" stroke="#ffffff" stroke-width="3" />
+      <circle cx="0" cy="0" r="8" fill="#ffffff" />
+    </g>
+
+    <path d="M 35,150 Q 25,160 40,165 Z" fill="#ffffff" />
+    
+    <path d="M 565,155 Q 575,160 560,170 Z" fill="#ffffff" opacity="0.7" />
+  </g>
+</svg>

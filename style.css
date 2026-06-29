@@ -1,1 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  background-color: darkgrey;
+}
 
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 150px;
+}
+.logo {
+  border-radius: 50%;
+  max-width: 150px;
+  height: auto;
+}
+.nav-menu {
+  font-size: 18px;
+  letter-spacing: 9%;
+  height: 900;
+}
