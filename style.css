@@ -29,24 +29,14 @@
 } */
 .nav-menu {
   font-size: 18px;
-  letter-spacing: 0.09em; /* 9% -> 0.09em უკეთესი პრაქტიკაა */
-  position: relative;
+  letter-spacing: 0.09em;
+  display: inline-block; /* აუცილებელია ტრანსფორმაციისთვის */
+  transition:
+    transform 0.2s ease,
+    text-shadow 0.2s ease;
 
-  &::after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: -4px;
-    left: 0;
-    background-color: #000; /* შენი ბრენდის ფერი */
-    transform-origin: bottom center;
-    transition: transform 0.25s ease-out;
-  }
-
-  &:hover::after {
-    transform: scaleX(1);
-    background-color: #f7b8b8;
+  &:hover {
+    transform: translateY(-2px);
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
   }
 }
