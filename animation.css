@@ -1,0 +1,24 @@
+@keyframes rollRight {
+  0% {
+    transform: translateX(-500px) rotate(0deg);
+  }
+  50% {
+    transform: translateX(0) rotate(500deg);
+  }
+  100% {
+    transform: translateX(0) rotate(1000deg);
+  }
+}
+
+@keyframes rollLeft {
+  0% {
+    transform: translateX(500px) rotate(0deg);
+  }
+
+  50% {
+    transform: translateX(0) rotate(-500deg);
+
+  100% {
+    transform: translateX(0) rotate(-1000deg);
+  }
+}
